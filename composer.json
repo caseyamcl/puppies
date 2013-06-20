@@ -1,0 +1,12 @@
+{
+    "name": "Puppies!!",
+    "type": "library",
+    "description": "Who doesn't love puppies??",
+    "license": "GPLv2",
+    "authors": [{"name": "Casey McLaughlin"}],
+    "autoload": {"psr-0": { "Puppies": "src/" }},
+    "require": {
+        "silex/silex": ">=1.0.0",
+        "twig/twig":   ">=1.13.1"
+    }
+}
